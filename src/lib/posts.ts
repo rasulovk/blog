@@ -13,14 +13,14 @@ export const authorSlug = (author: string) =>
     .trim()
     .replace(/\s+/g, "-");
 
-export const categoryHref = (category: string) => `/blog/category/${categorySlug(category)}/`;
+export const categoryHref = (category: string) => `/category/${categorySlug(category)}/`;
 
 export const postSlug = (post: Post) => {
   const id = post.id.endsWith("/index") ? post.id.slice(0, -6) : post.id;
   return id.replace(/\.(md|mdx)$/, "");
 };
 
-export const postHref = (post: Post) => `/blog/post/${postSlug(post)}/`;
+export const postHref = (post: Post) => `/post/${postSlug(post)}/`;
 
 export const byNewest = (a: Post, b: Post) => b.data.date.getTime() - a.data.date.getTime();
 

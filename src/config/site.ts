@@ -5,7 +5,7 @@ export const siteConfig = {
   title: "CyberCode - A minimal Astro blog theme",
   description:
     "A text-first Astro theme for essays, notes, and long-form writing, with a command-palette search and a light/dark reading mode.",
-  siteUrl: "https://rasulovk.github.io/blog",
+  siteUrl: "https://cyberkode.az",
   authorName: "Your Name",
   email: "hello@example.com",
   language: "en",
@@ -39,15 +39,15 @@ export const siteConfig = {
     { label: "Instagram", href: "https://instagram.com" },
     { label: "TikTok", href: "https://www.tiktok.com" },
     { label: "YouTube", href: "https://www.youtube.com" },
-    { label: "RSS", href: "/blog/rss.xml" },
+    { label: "RSS", href: "/rss.xml" },
   ],
 };
 
 /** Header navigation. Add or remove entries freely; the header renders them in order. */
 export const navigation = [
-  { label: "Archive", href: "/blog/posts/" },
-  { label: "Categories", href: "/blog/categories/" },
-  { label: "About", href: "/blog/about/" },
+  { label: "Archive", href: "/posts/" },
+  { label: "Categories", href: "/categories/" },
+  { label: "About", href: "/about/" },
 ];
 
 /** Secondary navigation rendered in the footer. */
