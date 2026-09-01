@@ -6,7 +6,7 @@ export const siteConfig = {
   description:
     "A text-first Astro theme for essays, notes, and long-form writing, with a command-palette search and a light/dark reading mode.",
   siteUrl: "https://rasulovk.github.io/blog",
-  authorName: "Andrei Alba",
+  authorName: "Your Name",
   email: "hello@example.com",
   language: "en",
   dateLocale: "en-US",
