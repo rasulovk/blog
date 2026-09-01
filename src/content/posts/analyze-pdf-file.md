@@ -1,7 +1,7 @@
 ---
 title: Analyze PDF file
-description:
-excerpt:
+description: Analysis of PDF malware delivery techniques and phishing trends
+excerpt: A quarterly breakdown of credential phishing, Supermailer campaigns, and malware delivery methods including JSDropper and NetSupport Manager RAT
 pubDate: 31.08.2026
 category: Engineering
 author:
