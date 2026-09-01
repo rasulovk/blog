@@ -16,6 +16,7 @@ const shikiConfig = /** @type {const} */ ({
 
 export default defineConfig({
   site: siteConfig.siteUrl,
+  base: '/blog',
   integrations: [
     sitemap({
       filter: (page) => page !== new URL("/search/", siteConfig.siteUrl).toString(),
