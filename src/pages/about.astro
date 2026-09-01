@@ -24,40 +24,21 @@ const authors = getAllAuthors(allPosts);
       </header>
 
       <div class="prose">
-        <h2>What gets published here</h2>
-        <p>
-          Long-form notes on building software: the decision behind a change, what it cost, and what
-          would be done differently next time. Posts are written to be read once, carefully, rather
-          than skimmed.
-        </p>
+        <h2>Əlaqə</h2>
+        <p>Bizimlə əlaqə saxlayın – <strong>Cyberhub.az</strong> komandası hər zaman sizi dinləməyə və dəstək olmağa hazırdır.</p>
 
-        <h2>How it is written</h2>
-        <p>
-          Every post aims to be reproducible and honest about trade-offs. If something did not work,
-          that goes in too. Corrections are made in place, with the update date shown at the top of
-          the post.
-        </p>
+        <h3>Sualınız, təklifiniz və ya əməkdaşlıq ideyanız var?</h3>
+        <p>Texnologiya, kibertəhlükəsizlik və rəqəmsal innovasiyalar mövzusunda fikir paylaşmaq, rəy bildirmək və ya əməkdaşlıq imkanlarını müzakirə etmək istəyirsinizsə – doğru ünvandasınız!</p>
 
-        <h2>Who writes it</h2>
+        <h3>Bizə necə çata bilərsiniz?</h3>
+        <p>📧 <strong>E-poçt:</strong> <code>info@cyberkode.az</code></p>
+
+        <h3>Əməkdaşlıq və sponsorluq</h3>
         <ul>
-          {
-            authors.map((author) => (
-              <li>
-                <a href={`/author/${authorSlug(author.name)}/`}>{author.name}</a> — {author.role} ({author.posts.length} {author.posts.length === 1 ? "post" : "posts"})
-              </li>
-            ))
-          }
+          <li>Saytımızda yer almaq istəyən texnologiya şirkətləri üçün <strong>sponsorlu məqalə</strong>, <strong>reklam bannerləri</strong>, və <strong>məhsul incələmələri</strong> xidmətlərimiz mövcuddur.</li>
+          <li>Rəqəmsal təhlükəsizlik tədbirləri, seminar və vebinarlar üçün <strong>ortaq layihələrə</strong> açığıq.</li>
         </ul>
-
-        <h2>Get in touch</h2>
-        <p>
-          Questions, corrections, and requests are welcome through the <a href="/contact/">contact page</a>.
-        </p>
-        {
-          siteConfig.email && (
-            <p>You can also email <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a> directly.</p>
-          )
-        }
+        <p>Əlavə məlumat üçün bizimlə əlaqə saxlayın, sizə tez bir zamanda geri dönüş ediləcək.</p>
       </div>
     </div>
   </main>
