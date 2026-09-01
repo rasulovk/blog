@@ -12,7 +12,7 @@ const posts = defineCollection({
       /** Must match one of the entries in src/config/categories.ts. */
       category: z.enum(categories).optional(),
       date: z.coerce.date().optional(),
-      pubDate: z.coerce.date().optional(),
+      pubDate: z.string().optional(),
       updatedDate: z.coerce.date().optional(),
       author: z.object({
         name: z.string(),
