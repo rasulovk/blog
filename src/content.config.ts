@@ -12,8 +12,12 @@ const posts = defineCollection({
       /** Must match one of the entries in src/config/categories.ts. */
       category: z.enum(categories).optional(),
       date: z.coerce.date().optional(),
+      pubDate: z.coerce.date().optional(),
       updatedDate: z.coerce.date().optional(),
-      author: z.string().optional(),
+      author: z.object({
+        name: z.string(),
+        role: z.string(),
+      }).optional(),
       /**
        * Optional feature image. Monograph's post feeds are deliberately
        * text-only, so a cover is only ever shown on the post itself.
