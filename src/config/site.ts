@@ -39,15 +39,15 @@ export const siteConfig = {
     { label: "Instagram", href: "https://instagram.com" },
     { label: "TikTok", href: "https://www.tiktok.com" },
     { label: "YouTube", href: "https://www.youtube.com" },
-    { label: "RSS", href: "/rss.xml" },
+    { label: "RSS", href: "/blog/rss.xml" },
   ],
 };
 
 /** Header navigation. Add or remove entries freely; the header renders them in order. */
 export const navigation = [
-  { label: "Archive", href: "/posts/" },
-  { label: "Categories", href: "/categories/" },
-  { label: "About", href: "/about/" },
+  { label: "Archive", href: "/blog/posts/" },
+  { label: "Categories", href: "/blog/categories/" },
+  { label: "About", href: "/blog/about/" },
 ];
 
 /** Secondary navigation rendered in the footer. */
