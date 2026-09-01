@@ -1,8 +1,8 @@
 export const siteConfig = {
-  /** Wordmark shown in the header and footer. Monograph uses text, never a logo image. */
-  name: "Monograph",
+  /** Wordmark shown in the header and footer. CyberCode uses text, never a logo image. */
+  name: "CyberCode",
   tagline: "A quiet place for long-form writing",
-  title: "Monograph - A minimal Astro blog theme",
+  title: "CyberCode - A minimal Astro blog theme",
   description:
     "A text-first Astro theme for essays, notes, and long-form writing, with a command-palette search and a light/dark reading mode.",
   siteUrl: "https://rasulovk.github.io/blog",
@@ -14,7 +14,7 @@ export const siteConfig = {
   socialImage: "/og-image.png",
   /** Shown in the home sidebar "About" card. */
   about:
-    "Monograph is a reading-first Astro theme. Notes on building software, published when there is something worth saying.",
+    "CyberCode is a reading-first Astro theme. Notes on building software, published when there is something worth saying.",
   /**
    * Both forms below ship enabled with an empty `action`, which makes them fully
    * interactive demos that submit nowhere: a small script confirms the submit

@@ -19,7 +19,7 @@ const posts = defineCollection({
         role: z.string(),
       }).optional(),
       /**
-       * Optional feature image. Monograph's post feeds are deliberately
+       * Optional feature image. CyberCode's post feeds are deliberately
        * text-only, so a cover is only ever shown on the post itself.
        */
       cover: z
