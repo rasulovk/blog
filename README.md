@@ -43,30 +43,53 @@ src/
 
 Edit `src/config/site.ts`:
 - `name` - Site title in header/footer
-- `siteUrl` - Your site's URL
+- `siteUrl` - Your site's URL (e.g., `https://rasulovk.github.io/blog`)
 - `authorName` - Author name
 - `socials` - Social media links in footer
 - `navigation` - Header menu items
 
 ### 2. Adding Blog Posts
 
-Create a new folder in `src/content/posts/` with an `index.md` or `index.mdx` file:
+Create a `.md` or `.mdx` file in `src/content/posts/`:
 
 ```markdown
 ---
 title: "My Post Title"
 description: "Post description for SEO"
-pubDate: 2024-01-15
-author: "Your Name"
-category: "tech"  # or "design", "life", etc.
+excerpt: "A brief summary for post listings"
+pubDate: 31.08.2026
+category: Engineering
+author:
+  name: Your Name
+  role: Writer
+featured: false
+draft: false
+date: 2026-09-01
 ---
 
 Your content here...
 ```
 
+**Frontmatter fields:**
+- `title` - Post title (required)
+- `description` - SEO description
+- `excerpt` - Brief summary for listings
+- `pubDate` - Publication date (DD.MM.YYYY format)
+- `category` - Must match one in `src/config/categories.ts`
+- `author` - Object with `name` and `role`
+- `featured` - Show in featured section
+- `draft` - Hide from published posts
+- `date` - Fallback date (YYYY-MM-DD)
+
 ### 3. Categories
 
-Available categories are defined in `src/config/categories.ts`. Add new categories there if needed.
+Available categories in `src/config/categories.ts`:
+- Engineering
+- Reliability
+- Cloud
+- Security
+- AI
+- Design Systems
 
 ### 4. Customizing Components
 
@@ -75,9 +98,28 @@ Available categories are defined in `src/config/categories.ts`. Add new categori
 - Post cards: `src/components/PostCard.astro`
 - MDX components: `src/components/mdx/`
 
+## Obsidian Blog Bridge
+
+This theme supports Obsidian Blog Bridge plugin. Configure Blog Bridge with:
+- Posts directory: `src/content/posts`
+- Image directory: `public/images/obsidian`
+- Image name template: `{{slug}}/{{filename}}`
+
+The frontmatter format matches Blog Bridge's YAML output.
+
 ## Deployment
 
 This site deploys automatically to GitHub Pages via GitHub Actions on every push to `main`.
+
+### URL Structure
+
+All URLs include `/blog/` prefix since the site is hosted at `rasulovk.github.io/blog`:
+- Homepage: `/blog/`
+- Posts: `/blog/posts/`
+- Categories: `/blog/categories/`
+- Category pages: `/blog/category/engineering/`
+- Post pages: `/blog/post/my-post-title/`
+- RSS: `/blog/rss.xml`
 
 ## Local Development
 
