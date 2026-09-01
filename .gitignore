@@ -18,6 +18,7 @@ dist-ssr
 *.local
 
 # Internal release/workflow notes
+GUIDE.md
 AGENTS.md
 RELEASE_CHECKLIST.md
 
