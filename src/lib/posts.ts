@@ -15,7 +15,7 @@ export const authorSlug = (author: string) =>
 
 export const categoryHref = (category: string) => `/category/${categorySlug(category)}/`;
 
-export const postSlug = (post: Post) => post.id.replace(/\/index$/, "");
+export const postSlug = (post: Post) => post.id.replace(/\/index$/, "").replace(/\.(md|mdx)$/, "");
 
 export const postHref = (post: Post) => `/post/${postSlug(post)}/`;
 
