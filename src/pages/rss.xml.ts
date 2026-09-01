@@ -15,12 +15,14 @@ export async function GET() {
   const items = posts
     .map((post) => {
       const url = new URL(postHref(post), siteConfig.siteUrl).toString();
+      const pubDate = post.data.date || post.data.pubDate;
+      const excerpt = typeof post.data.excerpt === 'string' ? post.data.excerpt : '';
       return `<item>
   <title>${escapeXml(post.data.title)}</title>
   <link>${url}</link>
   <guid>${url}</guid>
-  <pubDate>${post.data.date.toUTCString()}</pubDate>
-  <description>${escapeXml(post.data.excerpt)}</description>
+  <pubDate>${pubDate?.toUTCString() || new Date().toUTCString()}</pubDate>
+  <description>${escapeXml(excerpt)}</description>
 </item>`;
     })
     .join("\n");

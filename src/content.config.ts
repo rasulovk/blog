@@ -8,7 +8,7 @@ const posts = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
-      excerpt: z.any().optional(),
+      excerpt: z.union([z.string(), z.record(z.string())]).optional(),
       /** Must match one of the entries in src/config/categories.ts. */
       category: z.enum(categories).optional(),
       date: z.coerce.date().optional(),
