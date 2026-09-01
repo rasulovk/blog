@@ -2,7 +2,7 @@ export const siteConfig = {
   /** Wordmark shown in the header and footer. CyberCode uses text, never a logo image. */
   name: "CyberCode",
   tagline: "A quiet place for long-form writing",
-  title: "CyberCode - A minimal Astro blog theme",
+  title: "CyberCode - Blog",
   description:
     "A text-first Astro theme for essays, notes, and long-form writing, with a command-palette search and a light/dark reading mode.",
   siteUrl: "https://cybercode.az",
