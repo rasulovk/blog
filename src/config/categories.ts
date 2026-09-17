@@ -14,6 +14,10 @@ export const categories = [
   "Security",
   "AI",
   "Design Systems",
+  "Digital Forensic",
+  "Infosec",
+  "Opensource",
+  "Risk Management",
 ] as const;
 
 export type Category = (typeof categories)[number];
@@ -34,4 +38,8 @@ export const categoryDescriptions: Record<Category, string> = {
   Security: "Authentication, privacy, and threat work explained for product teams.",
   AI: "Evaluations, model behavior, and applied automation that holds up in production.",
   "Design Systems": "Tokens, components, and the systems work that keeps interfaces coherent.",
+  "Digital Forensic": "Evidence recovery, timeline reconstruction, and incident investigation.",
+  Infosec: "Vulnerabilities, patching, and security controls for modern infrastructure.",
+  Opensource: "Community projects, licensing, and contributing to public codebases.",
+  "Risk Management": "Threat modeling, risk assessment, and security posture improvement.",
 };
