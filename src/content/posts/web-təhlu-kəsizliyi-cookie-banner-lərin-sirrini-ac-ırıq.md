@@ -4,10 +4,9 @@ source: https://cyberhub.az/web-cookie/
 author:
   name: Kamil R
   role: Writer
-pubDate: 07.11.2025
+date: 2026-11-20
 description: Chrome təhlükəsizliyi ilə bağlı CVE-2025-5280 zəifliyi aşkarlanıb. Bu yazıda hücumun necə baş verdiyini və təhlükəsizlik ayarları ilə qorunma yollarını öyrənin.
 category: Infosec
-date: 2026-09-17
 ---
 
 ![Thirdparty_web_cookie](https://cyberhub.az/wp-content/uploads/2025/11/Web_cookie_.webp "WEB təhlükəsizliyi: Cookie-banner-lərin sirrini açırıq 1")
