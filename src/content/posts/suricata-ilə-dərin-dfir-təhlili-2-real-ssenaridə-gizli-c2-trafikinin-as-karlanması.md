@@ -7,10 +7,10 @@ author:
 pubDate: 2026-09-04
 description: “Şəbəkə paketləri sahə üzərində səssizcə axır, amma doğru qaydalar və alətlərlə onlar hücumçunun ən gizli izlərini belə üzə çıxarır.”  Bu yazı seriyasında Suricata DFIR (Digital Forensics and Incident Response) prosesində şəbəkə trafikinin təhlili üçün Suricata-dan necə istifadə edəcəyimizi addım-addım göstərəcəyik. Endpoint loglarında izi qalmayan bir çox hücum fəaliyyəti pcap fayllarında öz qeydini saxlayır — Suricata isə bizə bu trafikdən siqnalları çıxarmağa, hücum nümunələrini avtomatlaşdırılmış şəkildə aşkar etməyə və IOC-ları (Indicator of Compromise) hesabatlaşdırmağa imkan verir.
 excerpt:
-category: Engineering
+category: Digital Forensic
 featured: false
 draft: false
-date: 2026-09-04
+date: 2026-09-17
 ---
 
 
