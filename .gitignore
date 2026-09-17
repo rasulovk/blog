@@ -40,3 +40,5 @@ test-results
 *.njsproj
 *.sln
 *.sw?
+
+note_restore_newsletter.txt
