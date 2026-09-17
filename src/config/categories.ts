@@ -18,6 +18,7 @@ export const categories = [
   "Infosec",
   "Opensource",
   "Risk Management",
+  "GenAI Security",
 ] as const;
 
 export type Category = (typeof categories)[number];
@@ -42,4 +43,5 @@ export const categoryDescriptions: Record<Category, string> = {
   Infosec: "Vulnerabilities, patching, and security controls for modern infrastructure.",
   Opensource: "Community projects, licensing, and contributing to public codebases.",
   "Risk Management": "Threat modeling, risk assessment, and security posture improvement.",
+  "GenAI Security": "Prompt injection, model exploitation, and securing generative AI systems.",
 };
