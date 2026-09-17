@@ -14,7 +14,7 @@ export const siteConfig = {
   socialImage: "/og-image.png",
   /** Shown in the home sidebar "About" card. */
   about:
-    "CyberCode is a reading-first Astro theme. Notes on building software, published when there is something worth saying.",
+    "This site was created to share knowledge and help others grow in their career.",
   /**
    * Both forms below ship enabled with an empty `action`, which makes them fully
    * interactive demos that submit nowhere: a small script confirms the submit
@@ -36,9 +36,6 @@ export const siteConfig = {
     responseTime: "Replies usually go out within two business days.",
   },
   socials: [
-    { label: "Instagram", href: "https://instagram.com" },
-    { label: "TikTok", href: "https://www.tiktok.com" },
-    { label: "YouTube", href: "https://www.youtube.com" },
     { label: "RSS", href: "/rss.xml" },
   ],
 };
