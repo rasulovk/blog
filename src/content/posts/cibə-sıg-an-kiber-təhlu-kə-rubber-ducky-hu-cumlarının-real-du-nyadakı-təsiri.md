@@ -4,10 +4,9 @@ source: https://cyberhub.az/rubber-ducky/
 author:
   name: Kamil R.
   role: Writer
-pubDate: 12.01.2026
+date: 2026-01-12
 description: Pico-Ducky və Rubber Ducky kimi cihazlar bunun bariz nümunəsidir. Adi USB fləşk kimi görünürlər, lakin əslində saniyələr içində avtomatik əmrlər yeridə bilən, kompüterə istifadəçi sanki klaviaturadan yazırmış kimi komanda göndərən gizli HID (Human Interface Device) qurğularıdır
 category: ICS-SCADA
-date: 2026-09-23
 ---
 
 Fiziki təhlükəsizlik çox vaxt kibertəhlükəsizliyin kölgəsində qalır, amma reallıqda ən böyük risklərdən biri məhz kiçik, diqqət çəkməyən cihazlardan yarana bilər. Bir çox insan hücumu yalnız internet üzərindən təsəvvür edir, halbuki ofisdə masa üzərində qalan, yaxud qapıdan içəri “təsadüfən” düşən bir USB cihazı təşkilatın bütün infrastrukturuna giriş qapısı ola bilər.
