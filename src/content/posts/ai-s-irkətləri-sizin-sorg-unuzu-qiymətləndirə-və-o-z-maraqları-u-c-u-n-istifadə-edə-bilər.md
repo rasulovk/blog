@@ -4,7 +4,7 @@ source: https://cyberhub.az/ai-sirk%c9%99tl%c9%99ri-sizin-sorgunuzu-istifad%c9%9
 author:
   name: Kamil R.
   role: Writer
-date: 23.01.2026
+date: 2026-02-01
 description: '"Süni intellekt sizin dahiliyinizi qiymətləndirə bilər, onun sahibləri isə bunu öz məqsədləri üçün istifadə edə bilərlər".'
 category: GenAI Security
 ---
