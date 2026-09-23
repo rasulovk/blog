@@ -19,6 +19,7 @@ export const categories = [
   "Opensource",
   "Risk Management",
   "GenAI Security",
+  "ICS-SCADA",
 ] as const;
 
 export type Category = (typeof categories)[number];
@@ -44,4 +45,5 @@ export const categoryDescriptions: Record<Category, string> = {
   Opensource: "Community projects, licensing, and contributing to public codebases.",
   "Risk Management": "Threat modeling, risk assessment, and security posture improvement.",
   "GenAI Security": "Prompt injection, model exploitation, and securing generative AI systems.",
+  "ICS-SCADA": "Industrial control systems, SCADA protocols, and operational technology security.",
 };
