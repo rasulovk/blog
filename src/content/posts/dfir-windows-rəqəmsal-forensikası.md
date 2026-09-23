@@ -4,7 +4,7 @@ source: https://cyberhub.az/dfir-windows-forensik/
 author:
   name: Kamil R.
   role: Writer
-date: 27.10.2025
+date: 2025-07-27
 description: Chrome təhlükəsizliyi ilə bağlı CVE-2025-5280 zəifliyi aşkarlanıb. Bu yazıda hücumun necə baş verdiyini və təhlükəsizlik ayarları ilə qorunma yollarını öyrənin.
 category: Digital Forensic
 ---
