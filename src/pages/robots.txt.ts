@@ -6,6 +6,8 @@ export function GET() {
 Allow: /
 
 Sitemap: ${siteConfig.siteUrl}/sitemap.xml
+
+Disallow: /admin/
 `,
     {
       headers: {

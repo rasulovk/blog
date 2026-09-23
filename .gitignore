@@ -21,6 +21,7 @@ dist-ssr
 GUIDE.md
 AGENTS.md
 RELEASE_CHECKLIST.md
+setup_*
 
 # Ghost theme kept locally as a design reference, not part of this theme
 Journal-main/
