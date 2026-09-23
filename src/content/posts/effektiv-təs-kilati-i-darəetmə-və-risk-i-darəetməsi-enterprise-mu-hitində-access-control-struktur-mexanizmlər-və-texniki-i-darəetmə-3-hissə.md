@@ -6,7 +6,7 @@ author:
   role: Writer
 date: 2026-02-06
 description: Bu məqalə enterprise access control-u yalnız təhlükəsizlik nəzarəti kimi yox, risk və idarəetmə aləti kimi izah edir.
-category: Risk management
+category: Risk Management
 ---
 
 ![photo 5201679693449465076 w](https://cyberhub.az/wp-content/uploads/2026/02/photo_5201679693449465076_w.jpg "Effektiv Təşkilati İdarəetmə və Risk İdarəetməsi Enterprise Mühitində Access Control: Struktur, Mexanizmlər və Texniki İdarəetmə – 3 Hissə 1")
