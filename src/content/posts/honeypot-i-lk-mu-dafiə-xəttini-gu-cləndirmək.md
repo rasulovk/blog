@@ -6,7 +6,7 @@ author:
   role: Writer
 date: 2025-08-11
 description: Chrome təhlükəsizliyi ilə bağlı CVE-2025-5280 zəifliyi aşkarlanıb. Bu yazıda hücumun necə baş verdiyini və təhlükəsizlik ayarları ilə qorunma yollarını öyrənin.
-category: Passive defence
+category: Security
 ---
 
 **“Ən güclü müdafiə sistemi təkcə divarlarla deyil, düşmənin niyyətlərini və taktikasını öyrənməklə qurulur.”** — **Mikko Hypponen**,
