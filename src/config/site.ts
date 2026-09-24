@@ -45,6 +45,7 @@ export const navigation = [
   { label: "Archive", href: "/posts/" },
   { label: "Categories", href: "/categories/" },
   { label: "Services", href: "/services/" },
+  { label: "Honeypot", href: "https://honeypot.cyberhub.az/" },
   { label: "About", href: "/about/" },
 ];
 
