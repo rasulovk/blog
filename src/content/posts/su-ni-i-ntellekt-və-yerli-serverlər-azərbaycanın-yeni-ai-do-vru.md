@@ -4,10 +4,9 @@ source: https://cyberhub.az/suni-intellekt-yerli-server-azerbaycan/
 author:
   name: Mahir XXX
   role: Writer
-pubDate: 2026-09-04
+date: 2025-06-13
 description: Azərbaycanın dövlət başçısının imzaladığı Süni İntellekt Strategiyası Fərmanı ilə ölkə rəqəmsal transformasiyanın tamamilə yeni mərhələsinə qədəm qoyub. Artıq
 category: Opensource
-date: 2026-09-17
 ---
 
 ![Azərbaycan bayrağı fonunda süni intellekt beyni, yerli serverlər və rəqəmsal təhlükəsizlik simvolları](https://cyberhub.az/wp-content/uploads/2025/06/suni-intellekt-azerbaycan-yerli-server-ai.webp)
