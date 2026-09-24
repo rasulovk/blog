@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Copyright" content="CyberCode" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ranyeh" />
+    <meta name="rating" content="general" />
+    <meta name="language" content="English" />
+    <meta name="application-name" content="CyberCode" />
+    <meta
+      name="description"
+      content="Cybersecurity audit services based on ISO 27001, 27002, and NIST standards."
+    />
+    <meta name="keywords" content="company" />
+    <meta
+      name="twitter:title"
+      content="CyberCode | Cybersecurity Audit Services"
+    />
+    <meta
+      name="twitter:description"
+      content="Cybersecurity audit services based on ISO 27001, 27002, and NIST standards."
+    />
+    <meta name="twitter:image" content="./assets/img/hero.png" />
+    <meta
+      content="CyberCode | Cybersecurity Audit Services"
+      property="og:title"
+    />
+    <meta content="CyberCode" property="og:site_name" />
+    <meta
+      content="Cybersecurity audit services based on ISO 27001, 27002, and NIST standards."
+      property="og:description"
+    />
+    <meta content="./assets/img/hero.png" property="og:image" />
+    <meta content="https://cybercode.az" property="og:url" />
+    <meta content="website" property="og:type" />
+
+    <meta name="msapplication-TileColor" content="#3d63dd" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/favicon/mstile-144x144.png"
+    />
+    <meta name="theme-color" content="#3d63dd" />
+
+    <!-- Page title -->
+    <title>Cybersecurity Audit Services</title>
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://cybercode.az" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="194x194"
+      href="./assets/favicon/favicon-194x194.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest.json" />
+    <link
+      rel="mask-icon"
+      href="./assets/favicon/safari-pinned-tab.svg"
+      color="#3d63dd"
+    />
+
+    <!-- CSS Plugins -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <!-- Page loading -->
+    <div
+      class="page-loading fixed top-0 bottom-0 left-0 right-0 z-[99999] flex items-center justify-center bg-primary-light-1 dark:bg-primary-dark-1 opacity-100 visible pointer-events-auto"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+      aria-label="Loading..."
+    >
+      <div class="grid-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <header
+      class="ic-navbar absolute left-0 top-0 z-40 flex w-full items-center bg-transparent"
+      role="banner"
+      aria-label="Navigation bar"
+    >
+      <div class="container">
+        <div
+          class="ic-navbar-container relative -mx-5 flex items-center justify-between"
+        >
+          <div class="w-60 lg:w-56 max-w-full px-5">
+            <a
+              href="."
+              class="ic-navbar-logo block w-full py-5 text-primary-color"
+            >
+              <span class="text-xl font-bold text-primary-color">CyberCode</span>
+            </a>
+          </div>
+          <div class="flex w-full items-center justify-between px-5">
+            <div>
+              <button
+                type="button"
+                class="ic-navbar-toggler absolute right-4 top-1/2 block -translate-y-1/2 rounded-md px-3 py-[6px] text-[22px]/none text-primary-color ring-primary focus:ring-2 lg:hidden"
+                data-web-toggle="navbar-collapse"
+                data-web-target="navbarMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation menu"
+              >
+                <i class="lni lni-menu"></i>
+              </button>
+
+              <nav
+                id="navbarMenu"
+                class="ic-navbar-collapse absolute right-4 top-[80px] w-full max-w-[250px] rounded-lg hidden bg-primary-light-1 py-5 shadow-lg dark:bg-primary-dark-1 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6"
+              >
+                <ul
+                  class="block lg:flex"
+                  role="menu"
+                  aria-label="Navigation menu"
+                >
+                  <li class="group relative">
+                    <a
+                      href="#home"
+                      class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mx-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70 active"
+                      role="menuitem"
+                      >Home</a
+                    >
+                  </li>
+
+                  <li class="group relative">
+                    <a
+                      href="#services"
+                      class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
+                      role="menuitem"
+                      >Services</a
+                    >
+                  </li>
+
+                  <li class="group relative">
+                    <a
+                      href="#portfolio"
+                      class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
+                      role="menuitem"
+                      >Portfolio</a
+                    >
+                  </li>
+
+                  <li class="group relative">
+                    <a
+                      href="#team"
+                      class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
+                      role="menuitem"
+                      >Team</a
+                    >
+                  </li>
+
+                  <li class="group relative">
+                    <a
+                      href="#contact"
+                      class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
+                      role="menuitem"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="flex items-center justify-end pr-[52px] lg:pr-0">
+              <button
+                type="button"
+                class="inline-flex items-center text-primary-color text-[24px]/none"
+                aria-label="Switch theme"
+                data-web-trigger="web-theme"
+              ></button>
+              <div class="hidden sm:flex">
+                <a
+                  href="https://cybercode.az"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-navbar ml-5 px-6 py-3 rounded-md bg-primary-color bg-opacity-20 text-base font-medium text-primary-color hover:bg-opacity-100 hover:text-primary"
+                  role="button"
+                  >Blog</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main relative">
+      <!-- Hero section -->
+      <section
+        id="home"
+        class="relative overflow-hidden bg-primary text-primary-color pt-[120px] md:pt-[130px] lg:pt-[160px]"
+      >
+        <div class="container">
+          <div class="-mx-5 flex flex-wrap items-center">
+            <div class="w-full px-5">
+              <div class="scroll-revealed mx-auto max-w-[780px] text-center">
+                <h1
+                  class="mb-6 text-3xl font-bold leading-snug text-primary-color sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-tight"
+                >
+                  Cybersecurity <span id="animated-text"></span>
+                </h1>
+
+                <p
+                  class="mx-auto mb-9 max-w-[600px] text-base text-primary-color sm:text-lg sm:leading-normal"
+                >
+                  Protect your organization with expert audits based on ISO 27001, 27002, and NIST standards.
+                </p>
+
+                <ul
+                  class="mb-10 flex flex-wrap items-center justify-center gap-4 md:gap-5"
+                >
+                  <li>
+                    <a
+                      href="https://cybercode.az"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center justify-center rounded-md bg-primary-color text-primary px-5 py-3 text-center text-base font-medium shadow-md hover:bg-primary-light-5 md:px-7 md:py-[14px]"
+                      role="button"
+                      >Blog</a
+                    >
+                  </li>
+
+                  <li>
+                    <a
+                      href="javascript:boid(0)"
+                      class="video-popup flex items-center gap-4 rounded-md bg-primary-color/[0.15] px-5 py-3 text-base font-medium text-primary-color hover:bg-primary-color hover:text-primary md:px-7 md:py-[14px]"
+                      role="button"
+                      ><i class="lni lni-play text-lg/none"></i> Watch Intro</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+              </div>
+            </div>
+            <div class="w-full px-5">
+              <div class="scroll-revealed relative z-10 mx-auto max-w-[845px]">
+                <figure class="mt-16">
+                  <img
+                    src="./assets/img/hero.png"
+                    alt="Hero image"
+                    class="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
+                  />
+                </figure>
+
+                <div class="absolute -left-9 bottom-0 z-[-1]">
+                  <img
+                    src="./assets/img/dots.svg"
+                    alt
+                    class="w-[120px] opacity-75"
+                  />
+                </div>
+
+                <div class="absolute -right-6 -top-6 z-[-1]">
+                  <img
+                    src="./assets/img/dots.svg"
+                    alt
+                    class="w-[120px] opacity-75"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section id="about" class="section-area">
+        <div class="container">
+          <div class="grid grid-cols-1 gap-14 lg:grid-cols-2">
+            <div class="w-full">
+              <figure class="scroll-revealed max-w-[480px] mx-auto">
+                <img
+                  src="./assets/img/about-img.jpg"
+                  alt="About image"
+                  class="rounded-xl"
+                />
+              </figure>
+            </div>
+
+            <div class="w-full">
+              <div class="scroll-revealed">
+                <h6 class="mb-2 block text-lg font-semibold text-primary">
+                  About Us
+                </h6>
+                <h2 class="mb-6">
+                  // About Our Services
+                </h2>
+              </div>
+
+              <div class="tabs scroll-revealed">
+                <nav
+                  class="tabs-nav flex flex-wrap gap-4 my-8"
+                  role="tablist"
+                  aria-label="About us tabs"
+                >
+                  <button
+                    type="button"
+                    class="tabs-link inline-block py-2 px-4 rounded-md text-body-light-12 dark:text-body-dark-12 bg-body-light-12/10 dark:bg-body-dark-12/10 text-inherit font-medium hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
+                    data-web-toggle="tabs"
+                    data-web-target="tabs-panel-profile"
+                    id="tabs-list-profile"
+                    role="tab"
+                    aria-controls="tabs-panel-profile"
+                  >
+                    Our Profile
+                  </button>
+
+                  <button
+                    type="button"
+                    class="tabs-link inline-block py-2 px-4 rounded-md text-body-light-12 dark:text-body-dark-12 bg-body-light-12/10 dark:bg-body-dark-12/10 text-inherit font-medium hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
+                    data-web-toggle="tabs"
+                    data-web-target="tabs-panel-vision"
+                    id="tabs-list-vision"
+                    role="tab"
+                    aria-controls="tabs-panel-vision"
+                  >
+                    Our Vision
+                  </button>
+
+                  <button
+                    type="button"
+                    class="tabs-link inline-block py-2 px-4 rounded-md text-body-light-12 dark:text-body-dark-12 bg-body-light-12/10 dark:bg-body-dark-12/10 text-inherit font-medium hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
+                    data-web-toggle="tabs"
+                    data-web-target="tabs-panel-history"
+                    id="tabs-list-history"
+                    role="tab"
+                    aria-controls="tabs-panel-history"
+                  >
+                    Our History
+                  </button>
+                </nav>
+
+                <div
+                  class="tabs-content mt-4"
+                  id="tabs-panel-profile"
+                  tabindex="-1"
+                  role="tabpanel"
+                  aria-labelledby="tabs-list-profile"
+                >
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, look like
+                    readable English.
+                  </p>
+                  <p>
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have in some form, by injected
+                    humour.
+                  </p>
+                </div>
+
+                <div
+                  class="tabs-content mt-4"
+                  id="tabs-panel-vision"
+                  tabindex="-1"
+                  role="tabpanel"
+                  aria-labelledby="tabs-list-vision"
+                >
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, look like
+                    readable English.
+                  </p>
+                  <p>
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have in some form, by injected
+                    humour.
+                  </p>
+                </div>
+
+                <div
+                  class="tabs-content mt-4"
+                  id="tabs-panel-history"
+                  tabindex="-1"
+                  role="tabpanel"
+                  aria-labelledby="tabs-list-history"
+                >
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, look like
+                    readable English.
+                  </p>
+                  <p>
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have in some form, by injected
+                    humour.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="services" class="section-area bg-body-light-2 dark:bg-primary-dark-1">
+        <div class="container">
+          <div class="text-center max-w-[650px] mx-auto mb-12">
+            <h6 class="mb-2 block text-lg font-semibold text-primary">
+              Services
+            </h6>
+            <h2 class="mb-3">// Our Expertise</h2>
+            <p>
+              We have deep expertise in the government sector with practical security solutions tailored for public institutions.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-12 md:col-6 xl:col-4">
+              <div
+                class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg"
+              >
+                <div>
+                  <i
+                    class="lni lni-shield w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"
+                  ></i>
+                </div>
+                <div>
+                  <h4 class="text-[1.25rem] text-primary mb-3">ISO Audit</h4>
+                  <p class="m-0">
+                    Security governance, control testing, and compliance gap closure aligned with ISO requirements.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 md:col-6 xl:col-4">
+              <div
+                class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg"
+              >
+                <div>
+                  <i
+                    class="lni lni-envelope w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"
+                  ></i>
+                </div>
+                <div>
+                  <h4 class="text-[1.25rem] text-primary mb-3">Phishing Campaign</h4>
+                  <p class="m-0">
+                    Simulated campaigns and awareness analytics to reduce human risk across government teams.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 md:col-6 xl:col-4">
+              <div
+                class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg"
+              >
+                <div>
+                  <i
+                    class="lni lni-lock-alt w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"
+                  ></i>
+                </div>
+                <div>
+                  <h4 class="text-[1.25rem] text-primary mb-3">NIST Compliance</h4>
+                  <p class="m-0">
+                    Framework mapping, maturity assessment, and prioritized remediation for stronger cyber resilience.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio section -->
+      <section id="portfolio" class="section-area bg-body-light-2 dark:bg-primary-dark-1">
+        <div class="container">
+          <div class="text-center max-w-[650px] mx-auto mb-12">
+            <h6 class="mb-2 block text-lg font-semibold text-primary">
+              Portfolio
+            </h6>
+            <h2 class="mb-3">// Sector of expertice</h2>
+            <p>
+              Selected engagements focused on public-sector cyber risk reduction and compliance outcomes.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-12 md:col-6 xl:col-4">
+              <div
+                class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg"
+              >
+                <div>
+                  <i
+                    class="lni lni-shield w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"
+                  ></i>
+                </div>
+                <div>
+                  <h4 class="text-[1.25rem] text-primary mb-3">National Agency ISO Audit</h4>
+                  <p class="m-0">
+                    Delivered an end-to-end ISO audit program with control evidence review and remediation tracking.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 md:col-6 xl:col-4">
+              <div
+                class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg"
+              >
+                <div>
+                  <i
+                    class="lni lni-envelope w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"
+                  ></i>
+                </div>
+                <div>
+                  <h4 class="text-[1.25rem] text-primary mb-3">Municipal Phishing Campaign</h4>
+                  <p class="m-0">
+                    Ran targeted phishing simulations and awareness improvements for multi-department staff.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 md:col-6 xl:col-4">
+              <div
+                class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg"
+              >
+                <div>
+                  <i
+                    class="lni lni-lock-alt w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"
+                  ></i>
+                </div>
+                <div>
+                  <h4 class="text-[1.25rem] text-primary mb-3">Public IT NIST Compliance</h4>
+                  <p class="m-0">
+                    Built a phased NIST compliance roadmap with measurable controls and executive reporting.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact" class="section-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 xl:col-4">
+              <div class="row">
+                <div class="col-12 md:col-6 xl:col-12">
+                  <div
+                    class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg"
+                  >
+                    <div>
+                      <i
+                        class="lni lni-phone w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"
+                      ></i>
+                    </div>
+                    <div>
+                      <h4 class="text-[1.25rem] text-primary mb-3">Contact</h4>
+                      <p class="m-0">0984537278623</p>
+                      <p class="m-0">yourmail@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 md:col-6 xl:col-12">
+                  <div
+                    class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg"
+                  >
+                    <div>
+                      <i
+                        class="lni lni-map-marker w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"
+                      ></i>
+                    </div>
+                    <div>
+                      <h4 class="text-[1.25rem] text-primary mb-3">Address</h4>
+                      <p class="m-0">175 5th Ave, New York, NY 10010</p>
+                      <p class="m-0">United States</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 md:col-6 xl:col-12">
+                  <div
+                    class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg"
+                  >
+                    <div>
+                      <i
+                        class="lni lni-alarm-clock w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"
+                      ></i>
+                    </div>
+                    <div>
+                      <h4 class="text-[1.25rem] text-primary mb-3">Schedule</h4>
+                      <p class="m-0">24 Hours / 7 Days Open</p>
+                      <p class="m-0">Office time: 10:00 AM - 5:30 PM</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 xl:col-8">
+              <div
+                class="scroll-revealed bg-body-light-1 dark:bg-primary-dark-2 rounded-xl py-8 sm:py-12 px-6 sm:px-10 z-10 relative shadow-card-1 hover:shadow-lg"
+              >
+                <div class="text-center max-w-[550px] mx-auto mb-12">
+                  <h6 class="mb-2 block text-lg font-semibold text-primary">
+                    Get in Touch
+                  </h6>
+                  <h2 class="mb-3">// Get In Touch</h2>
+                  <h3 class="mb-3 text-[1.25rem] text-primary">Contact</h3>
+                  <p>
+                    Contact us at info@cybersecurity-audit.com for inquiries.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-primary-dark-2 text-white">
+      <div class="container py-20 lg:py-[100px]">
+        <div class="row">
+          <div class="col-12 order-first lg:col-4">
+            <div class="w-full">
+              <h3 class="mb-5 text-xl font-bold text-white">CyberCode</h3>
+
+              <p class="mb-8 text-body-dark-11">
+                Professional cybersecurity audit services for ISO 27001, 27002, and NIST compliance. Visit <a href="https://cybercode.az" class="text-primary hover:underline">cybercode.az</a> for more information.
+              </p>
+
+              <div class="-mx-3 hidden items-center">
+                <a
+                  href="javascript:void(0)"
+                  class="px-3 text-body-dark-11 hover:text-primary text-[22px] leading-none"
+                >
+                  <i class="lni lni-facebook-fill"></i>
+                </a>
+
+                <a
+                  href="javascript:void(0)"
+                  class="px-3 text-body-dark-11 hover:text-primary text-[22px] leading-none"
+                >
+                  <i class="lni lni-twitter-original"></i>
+                </a>
+
+                <a
+                  href="javascript:void(0)"
+                  class="px-3 text-body-dark-11 hover:text-primary text-[22px] leading-none"
+                >
+                  <i class="lni lni-instagram-original"></i>
+                </a>
+
+                <a
+                  href="javascript:void(0)"
+                  class="px-3 text-body-dark-11 hover:text-primary text-[22px] leading-none"
+                >
+                  <i class="lni lni-linkedin-original"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 lg:col-2">
+            <div class="w-full">
+              <h4 class="mb-9 text-lg font-semibold text-inherit">Solutions</h4>
+              <ul>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="mb-3 inline-block text-body-dark-11 hover:text-primary"
+                    >Marketing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="mb-3 inline-block text-body-dark-11 hover:text-primary"
+                    >Analytics</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="mb-3 inline-block text-body-dark-11 hover:text-primary"
+                    >Commerce</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="mb-3 inline-block text-body-dark-11 hover:text-primary"
+                    >Insights</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full border-t border-solid border-alpha-dark"></div>
+      <div class="container py-8">
+        <div class="flex flex-wrap">
+          <div class="w-full md:w-1/2">
+            <div class="my-1">
+              <div
+                class="flex flex-wrap justify-center gap-x-3 md:justify-start"
+              >
+                <a
+                  href="javascript:void(0)"
+                  class="text-body-dark-11 hover:text-body-dark-12"
+                  >Privacy Policy</a
+                >
+                <a
+                  href="javascript:void(0)"
+                  class="text-body-dark-11 hover:text-body-dark-12"
+                  >Legal Notice</a
+                >
+                <a
+                  href="javascript:void(0)"
+                  class="text-body-dark-11 hover:text-body-dark-12"
+                  >Terms of Service</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full md:w-1/2">
+            <div class="my-1 flex justify-center md:justify-end">
+              <p class="text-body-dark-11">
+                &#169; <span id="footerYear"></span> CyberCode Inc. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button
+      type="button"
+      class="inline-flex w-12 h-12 rounded-md items-center justify-center text-lg/none bg-primary text-primary-color hover:bg-primary-light-10 dark:hover:bg-primary-dark-10 focus:bg-primary-light-10 dark:focus:bg-primary-dark-10 fixed bottom-[117px] right-[20px] hover:-translate-y-1 opacity-100 visible z-50 is-hided"
+      data-web-trigger="scroll-top"
+      aria-label="Scroll to top"
+    >
+      <i class="lni lni-chevron-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+    <script>
+      // Scroll Reveal
+      const sr = ScrollReveal({
+        origin: "bottom",
+        distance: "16px",
+        duration: 1000,
+        reset: false,
+      });
+
+      const footerYear = document.getElementById("footerYear");
+      if (footerYear) {
+        footerYear.textContent = new Date().getFullYear();
+      }
+
+      sr.reveal(`.scroll-revealed`, {
+        cleanup: true,
+      });
+
+      // GLightBox
+      GLightbox({
+        selector: ".video-popup",
+        href: "https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM",
+        type: "video",
+        source: "youtube",
+        width: 900,
+        autoplayVideos: true,
+      });
+
+      const myGallery3 = GLightbox({
+        selector: ".portfolio-box",
+        type: "image",
+        width: 900,
+      });
+
+      // Testimonial
+      const testimonialSwiper = new Swiper(".testimonial-carousel", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1280: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
