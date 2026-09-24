@@ -4,7 +4,7 @@ source: https://cyberhub.az/management-iam-hiss%c9%99-2-acl-governance-v%c9%99-z
 author:
   name: Guljannat R.
   role: Writer
-date: 09.12.2025
+date: 2025-12-09
 description: IAM-in giriş yazısında identiklik anlayışı, direktoriyaların rolu, atributların idarə edilməsi, SSO və MFA kimi təbəqələrin təhlükəsizlik arxitekturasında oynadığı əsas funksiyadan bəhs etmişdik. Həmin hissədə IAM-in yalnız “kimdir?” sualına cavab verən bir modul yox ...
 category: Infosec
 ---
