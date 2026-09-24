@@ -4,7 +4,7 @@ source: https://cyberhub.az/iso-27001-t%c9%99tbiqin%c9%99-strateji-hazirliq-m%c9
 author:
   name: Guljannat R.
   role: Writer
-date: 02.06.2025
+date: 2025-06-02
 description: ISO 27001 Tətbiqinə Strateji Hazırlıq
 category: Infosec
 ---
