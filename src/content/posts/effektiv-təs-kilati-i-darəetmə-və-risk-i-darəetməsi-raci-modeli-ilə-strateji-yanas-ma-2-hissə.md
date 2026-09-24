@@ -6,7 +6,7 @@ author:
   role: Writer
 date: 2025-08-20
 description: "Effektiv Təşkilati İdarəetmə və Risk İdarəetməsi: RACI Modeli ilə Strateji Yanaşma – II Hissə"
-category: Risk management
+category: Risk Management
 ---
 
 Müasir təşkilatlarda risk idarəetməsi sadəcə “təhlükələrin qarşısını almaq” deyil – bu gün o, **strateji üstünlük və davamlı dəyər yaratmaq vasitəsidir**. Qlobal rəqabət, texnoloji dəyişikliklər və sərtləşən regulyativ tələblər fonunda risk yanaşması şirkətlərə yalnız qorunmaq deyil, həm də **imkanları vaxtında görmək** imkanı verir.
