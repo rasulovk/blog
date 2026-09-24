@@ -4,10 +4,9 @@ source: https://cyberhub.az/suni-intellektin-gorunm%c9%99y%c9%99n-t%c9%99hluk%c9
 author:
   name: Guljannat R.
   role: Writer
-pubDate: 05.06.2025
+date: 2025-06-05
 description: Süni intellektin tətbiqi texnoloji transformasiyanın hüdudlarını aşaraq, idarəetmə, risk və uyğunluq strukturunda məlumat axınlarının sistemli şəkildə tənzimlənməsini zəruri edir.
 category: GenAI Security
-date: 2026-09-17
 ---
 
 “Ən təhlükəli texnologiya, məqsədi anlayıb, dəyəri anlamayan texnologiyadır.”  
