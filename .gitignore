@@ -22,6 +22,7 @@ GUIDE.md
 AGENTS.md
 RELEASE_CHECKLIST.md
 setup_*
+CANARY_SETUP.md
 
 # Ghost theme kept locally as a design reference, not part of this theme
 Journal-main/
@@ -29,6 +30,7 @@ Journal-main/
 # Wrangler / Cloudflare
 .wrangler/
 .dev.vars
+cloudflare-worker.js
 
 # Editor directories and files
 test-results
