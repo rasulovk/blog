@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rasulovk.github.io/blog/sitemap.xml
+
+Disallow: /admin/
+Disallow: /db/

@@ -8,6 +8,7 @@ Allow: /
 Sitemap: ${siteConfig.siteUrl}/sitemap.xml
 
 Disallow: /admin/
+Disallow: /db/
 `,
     {
       headers: {

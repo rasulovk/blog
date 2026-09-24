@@ -1,0 +1,19 @@
+# cybercode.az - Site Information for AI/Crawler Access
+
+## Overview
+cybercode.az is a personal blog focused on cybersecurity, DFIR (Digital Forensics & Incident Response), and IT infrastructure topics.
+
+## Site Structure
+- Blog posts in Azerbaijani/Turkish language
+- Categories: Security, DFIR, Cloud, AI, Engineering, etc.
+- Content covers: threat analysis, penetration testing, malware analysis, OSINT, and security best practices
+
+## Purpose
+This site publishes technical articles and writeups for the cybersecurity community.
+
+## Allowed
+All public blog content may be indexed.
+
+## Disallowed
+- /admin/ - admin portal (no content)
+- /db/ - honeypot/trap (automated security monitoring)
