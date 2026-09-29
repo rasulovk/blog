@@ -40,7 +40,7 @@ You can see the live demo [here](https://cybercode.az).
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/inazuma-tailwind.git
+git clone https://github.com/yourusername/cybercode-services.git
 ```
 2. Or you can download and extract it to your project folder.
 3. Open `index.html` in your web browser.
@@ -116,7 +116,7 @@ module.exports = {
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/ranyeh24/inazuma/issues) here on GitHub or email me at <real.ranyeh24@gmail.com>.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/rasul/cybercode-services/issues) here on GitHub.
 
 ## Credits
 
@@ -125,7 +125,7 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 ## License
 
-Inazuma is open-source and available under the [MIT License](https://raw.githubusercontent.com/ranyeh24/inazuma/main/LICENSE). You can use it with your personal or commercial projects without any attribution or backlink.
+CyberCode is open-source and available under the [MIT License](https://raw.githubusercontent.com/rasul/cybercode-services/main/LICENSE). You can use it with your personal or commercial projects without any attribution or backlink.
 
 # Cybersecurity Audit Landing Page
 
