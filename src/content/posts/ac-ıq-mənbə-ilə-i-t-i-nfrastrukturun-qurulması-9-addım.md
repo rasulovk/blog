@@ -4,7 +4,7 @@ source: https://cyberhub.az/aciq-menbe-it-infrastruktur-qurulmasi/
 author:
   name: Mahir XXX
   role: Writer
-date: 2026-09-04
+date: 2025-09-04
 description: Proxmox, OPNsense, Docker kimi alətlərlə self-hosted İT infrastrukturu necə qurulacağını addım-addım öyrənin. Təhlükəsizlik və performans təmin edin.
 category: Opensource
 ---
