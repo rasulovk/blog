@@ -131,7 +131,7 @@ Derek-in dediyi kimi: "Əgər siz texniki insanlarla siyasət olmadan şəbəkə
 
 GRC və Red Team əslində **eyni sikkənin iki üzüdür**. GRC deyir "bunu etməlisən", Red Team deyir "bunu etmisinizmi və düzgün edemisinizmi?". Hər ikisi eyni məqsədə xidmət edir: təşkilatı kiber risklərdən qorumaq.
 
-Tom Smith-in dediyi kimi: "Əsas odur ki, texniki nəzarətlər müstəqil şəkildə qurulur. Texniki enforcement olmalıdır, amma GRC olmadan bu enforcement-un arxasında maliyyə və dəstək yoxdur."
+Əsas odur ki, texniki nəzarətlər müstəqil şəkildə qurulur. Texniki enforcement olmalıdır, amma GRC olmadan bu enforcement-un arxasında maliyyə və dəstək yoxdur."
 
 Uğurlu kiber təhlükəsizlik proqramı hər iki yanaşmanı bir araya gətirir. Yalnız bu halda real dünya riskləri effektiv şəkildə idarə edilə bilər.
 
