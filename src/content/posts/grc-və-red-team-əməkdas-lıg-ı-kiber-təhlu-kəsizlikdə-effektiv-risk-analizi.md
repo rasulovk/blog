@@ -7,7 +7,7 @@ tags:
   - Compliance
 description: GRC (Governance, Risk, and Compliance) və Red Team yanaşmalarının kiber risk analizində necə birgə işlədiyini öyrənin. Hər iki metodologiyadan effektiv istifadə üçün praktiki tövsiyələr.
 excerpt:
-pubDate: 2026-09-01
+pubDate: 2026-10-06
 category: Infosec
 author:
   name: Kamil Rasulov
@@ -18,10 +18,6 @@ draft: false
 
 
 Kiber təhlükəsizlik sahəsində iki fərqli yanaşma tez-tez müzakirə obyektinə çevrilir: **GRC (Governance, Risk, and Compliance)** — idarəetmə, risk və uyğunluq — və **Red Team** fəaliyyətləri, o cümlədən penetration testlər. Bir çox təşkilatda bu iki sahə bir-birinə qarşı deyil, bir-birini tamamlayan yanaşmalar kimi qəbul edilməlidir.
-
-Black Hills Information Security-də keçirilən vebinarda GRC analitiki Ed Capizzi, Red Team əməliyyatçısı Derek Banks və biznes-korporativ komanda üzvü Tom Smith bu iki yanaşmanın necə bir araya gəldiyini müzakirə ediblər. Müzakirənin əsas mövzusu sadə bir sual idi: **GRC və Red Team birlikdə daha yaxşı işləyir — bunu necə etməli?**
-
-Bu məqalədə həmin vebinarda irəli sürülən fikirləri və praktiki təcrübələri təhlil edəcəyik.
 
 ## GRC və Red Team: Rolların Müəyyənləşdirilməsi
 
