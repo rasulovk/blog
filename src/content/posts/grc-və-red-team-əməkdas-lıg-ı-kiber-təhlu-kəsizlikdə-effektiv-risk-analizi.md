@@ -1,6 +1,6 @@
 ---
 title: "GRC və Red Team Əməkdaşlığı: Kiber Təhlükəsizlikdə Effektiv Risk Analizi"
-date: 2024-08-28
+date: 2026-10-06
 tags:
   - GRC
   - Cybersecurity
