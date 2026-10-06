@@ -4,7 +4,7 @@ source: https://cyberhub.az/identity-and-access-management-iam/
 author:
   name: Guljannat R.
   role: Writer
-date: 2026-12-05
+date: 2025-12-05
 description: Rəqəmsal transformasiyanın tempi artdıqca, təşkilatların identiklik və giriş idarəetməsinə (Identity and Access Management – IAM) yanaşması köklü şəkildə yenilənmək məcburiyyətində qalır. Dünənə qədər tək-tək sistemlər üçün istifadəçi hesabı açmaq “idarəetmə” kimi qəbul olunurdusa
 category: Infosec
 ---
