@@ -22,6 +22,8 @@ Salam! Təsəvvür edin ki, xəbər: GPT-6 Astra-nın müdafiəsini adi translit
 
 LLM-lərə hücumlar göstərdi ki, əgər müdafiə sorğunu təhlil edə bilmir və sətiraltı məna oxuya bilmir, deməli, məhkumdur. Bu səbəbdən süni intellekt son dərəcə etibarlı ola bilər və sorğunun formasını və ya kontekstini bir az dəyişdirdikdə istənilən cavabı verə bilər.
 
+
+![](/images/obsidian/llm-u-c-u-n-guardrails-su-ni-i-ntellektin-mu-dafi%C9%99-mexanizml%C9%99ri/llm_guardrail.webp)
 ## Guardrails Nədir?
 
 Guardrails (və ya sadəcə qardreyls) — süni intellektin müəyyən edilmiş çərçivələrdən kənara çıxmasına imkan verməyən qaydalar və müdafiə məhdudiyyətləri dəstidir. Bu halda söhbət yalnız qadağan olunmuş sözlər üzrə filtrasiya, mövzulardan yayınma və ya boş danışıq haqqında deyil.
