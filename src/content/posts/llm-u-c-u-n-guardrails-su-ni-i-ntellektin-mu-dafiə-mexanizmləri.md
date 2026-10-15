@@ -1,6 +1,6 @@
 ---
 title: "LLM üçün Guardrails: Süni İntellektin Müdafiə Mexanizmləri"
-date: 2024-10-15
+date: 2026-10-15
 tags:
   - LLM
   - AI
