@@ -39,6 +39,13 @@ const defaultStructuredData = {
   },
 };
 const schema = structuredData ?? defaultStructuredData;
+const analyticsId = import.meta.env.PUBLIC_GOOGLE_ANALYTICS_ID;
+
+if (analyticsId && !/^G-[A-Z0-9]{10}$/.test(analyticsId)) {
+  throw new Error(
+    "PUBLIC_GOOGLE_ANALYTICS_ID must be a valid Google Analytics 4 measurement ID (G-XXXXXXXXXX).",
+  );
+}
 ---
 
 <!doctype html>
@@ -66,6 +73,21 @@ const schema = structuredData ?? defaultStructuredData;
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={absoluteImage} />
+    {analyticsId && (
+      <>
+        <script
+          is:inline
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${analyticsId}`}
+        ></script>
+        <script is:inline define:vars={{ analyticsId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', analyticsId);
+        </script>
+      </>
+    )}
     <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
     <script is:inline>
       /*

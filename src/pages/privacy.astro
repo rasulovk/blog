@@ -28,6 +28,13 @@ const allPosts = visiblePosts(await getCollection("posts"));
           This site is statically generated and sets no cookies of its own. If the newsletter or
           contact form is connected to a provider, that provider receives the details you submit.
         </p>
+        {import.meta.env.PUBLIC_GOOGLE_ANALYTICS_ID && (
+          <p>
+            This site uses Google Analytics to understand how visitors use it. Google may collect
+            usage data and set cookies. See{" "}
+            <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+          </p>
+        )}
 
         <h2>How it is used</h2>
         <p>

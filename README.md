@@ -138,3 +138,14 @@ npm run build
 
 - Node.js >= 22.12.0
 - Astro (configured with MDX, Sitemap, TailwindCSS)
+
+### Google Analytics
+
+Set `PUBLIC_GOOGLE_ANALYTICS_ID` to your GA4 measurement ID (for example,
+`G-XXXXXXXXXX`) to enable Google Analytics. The integration is omitted when the
+variable is unset. For local builds, put it in a `.env` file at the project root.
+
+For GitHub Pages deployments, add a repository Actions variable named
+`GOOGLE_ANALYTICS_ID` under **Settings → Secrets and variables → Actions → Variables**.
+The deployment workflow passes it to Astro at build time. Analytics IDs are public
+in the generated site and should be stored as a variable, not a secret.
