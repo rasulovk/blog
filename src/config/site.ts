@@ -5,6 +5,7 @@ export const siteConfig = {
   title: "CyberCode - Blog",
   description:
     "A text-first Astro theme for essays, notes, and long-form writing, with a command-palette search and a light/dark reading mode.",
+  googleAnalyticsId: "G-CSH97G4GV9",
   siteUrl: "https://cybercode.az",
   authorName: "Your Name",
   email: "hello@example.com",
