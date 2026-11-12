@@ -41,7 +41,7 @@ Bu mühəndislik uyğunluğu möcüzəsinə görə sendmail dünya standartına 
 
 ## Hər şeyi proqnozlaşdıran qurd
 
-1988-ci il noyabrın 2-də Kornel aspirantı və NSA-dan kriptoqrafın oğlu Robert Tappan Morris, internetin ölçüsünü ölçməli olan proqramı işə saldı (şərhlərdə yazın, bəhanədir, ya həqiqətən belə məqsəd var idi). Bir şey səhv getdi və qurd çoxalmağa başladı. O, 24 saat ərzində təxminən 6000 serveri sıradan çıxartdı — o dövrdə internetin ondan bir hissəsi.
+1988-ci il noyabrın 2-də Kornel aspirantı və NSA-dan kriptoqrafın oğlu Robert Tappan Morris, internetin ölçüsünü ölçməli olan proqramı işə saldı. Bir şey səhv getdi və qurd çoxalmağa başladı. O, 24 saat ərzində təxminən 6000 serveri sıradan çıxartdı — o dövrdə internetin ondan bir hissəsi.
 
 Qeyd edək ki, Morris qurdu üç zəiflikdən istifadə edirdi:
 
